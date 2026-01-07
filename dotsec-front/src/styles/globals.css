@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer components {
+  .nav-link {
+    @apply bg-gray-300 px-6 py-4 rounded-xl hover:bg-gray-400 transition;
+  }
+
+  .calculator-title {
+    @apply font-bold p-10 text-center text-3xl;
+  }
+
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}

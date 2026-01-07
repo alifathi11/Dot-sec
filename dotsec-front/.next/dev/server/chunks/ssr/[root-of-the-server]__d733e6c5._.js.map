@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///home/ali/dotsec/dotsec-front/src/app/mac/page.tsx"],"sourcesContent":["export default function AES() {\n  return (\n    <>\n        <h2 className=\"font-bold p-10 text-center text-4xl\">MAC</h2>\n    </>\n  )\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE;kBACI,cAAA,+YAAC;YAAG,WAAU;sBAAsC;;;;;;;AAG5D"}}]
+}

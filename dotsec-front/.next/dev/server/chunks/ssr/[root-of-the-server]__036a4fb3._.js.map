@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///home/ali/dotsec/dotsec-front/src/app/des/page.tsx"],"sourcesContent":["import Input from '../../components/Input';\nexport default function DES() {\n  return (\n    <>\n        <h2 className=\"calculator-title\">DES</h2>\n        <form className=\"flex flex-col items-center\">\n          Input\n        </form>\n    </>\n  )\n}"],"names":[],"mappings":";;;;;;AACe,SAAS;IACtB,qBACE;;0BACI,+YAAC;gBAAG,WAAU;0BAAmB;;;;;;0BACjC,+YAAC;gBAAK,WAAU;0BAA6B;;;;;;;;AAKrD"}}]
+}

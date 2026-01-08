@@ -1,6 +1,0 @@
-{
-  "/aes/page": "app/aes/page.js",
-  "/des/page": "app/des/page.js",
-  "/mac/page": "app/mac/page.js",
-  "/page": "app/page.js"
-}

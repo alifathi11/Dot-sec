@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///home/ali/dotsec/dotsec-front/src/app/page.tsx"],"sourcesContent":["export default function Home() {\n  return (\n    <>\n      <h1 className=\"font-serif text-blue-900 border-amber-500 border-4\">Welcome to DotSec App</h1>\n    </>\n  )\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE;kBACE,cAAA,+YAAC;YAAG,WAAU;sBAAqD;;;;;;;AAGzE"}}]
-}

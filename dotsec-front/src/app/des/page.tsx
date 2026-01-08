@@ -7,16 +7,18 @@ import TextArea from '../../components/TextArea';
 import Button from '../../components/Button';
 
 import { BCM } from '../../constants/bcmModes';
+import { Operation } from '../../constants/operations';
 
 export default function DES() {
 
-  const [key, setKey]       = useState('');
-  const [data, setData]     = useState('');
-  const [mode, setMode]     = useState('ECB');
-  const [result, setResult] = useState('');
+  const [key, setKey]             = useState('');
+  const [data, setData]           = useState('');
+  const [mode, setMode]           = useState('ECB');
+  const [operation, setOperation] = useState('Encrypt');
+  const [result, setResult]       = useState('');
 
   const handleClick = () => {
-    setResult(`Mock result for ${key} ${data} ${mode}`);
+    setResult(`Mock result for ${operation} ${key} ${data} ${mode}`);
   };
 
   return (
@@ -50,19 +52,18 @@ export default function DES() {
           onChange={(e) => {setMode(e.target.value)}}
         />
 
-        <div className="flex gap-5 justify-center">
-          <Button 
-            type="button"
-            onClick={handleClick}>
-            Encrypt
-          </Button>
-  
-          <Button 
-            type="button"
-            onClick={handleClick}>
-            Decrypt
-          </Button>
-        </div>
+        <Select 
+          id="operation" 
+          label="Operation" 
+          options={Operation} 
+          onChange={(e) => {setOperation(e.target.value)}}
+        />
+
+        <Button 
+          type="button"
+          onClick={handleClick}>
+          Run
+        </Button>
 
         <TextArea 
           id="result" 
